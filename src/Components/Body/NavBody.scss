@@ -1,0 +1,16 @@
+.navBody {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.bodyNav {
+    width: 70%;
+    font-weight: bold;
+    margin: auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.bodyNav span {
+    text-decoration: underline;
+    cursor: pointer;
+}

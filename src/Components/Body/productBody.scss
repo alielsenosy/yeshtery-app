@@ -1,0 +1,128 @@
+.productBody {
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.bigImg {
+    width: 100%;
+    height: 500px;
+}
+
+.bigImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.smallImg {
+    width: 100px;
+    height: 100px;
+}
+
+.smallImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.prodName {
+    font-weight: bold;
+}
+
+#prodGender {
+    color: #A7A9AC;
+    font-weight: bold;
+}
+
+#prodStars {
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#prodRates {
+    color: #a3a3a3;
+    font-weight: bold;
+
+}
+
+#prodPriceAfter {
+    color: #542E90;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#prodPrice {
+    color: #A7A9AC;
+    text-decoration: line-through;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#prodDisc {
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+    background-color: #FFF200;
+    text-align: center;
+}
+
+#divPrice {
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 20px;
+}
+
+#size,
+#quantity {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#divSize ul {
+    padding: 0;
+}
+
+#divSize li {
+    list-style: none;
+    display: inline-block;
+    color: #542E90;
+    font-weight: bold;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    border: 1px solid #ECECEC;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+#large {
+    background-color: #ECECEC;
+}
+
+#divSize {
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 20px;
+}
+
+#add,
+#pickup {
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 27px;
+}
+
+#add {
+    color: var(--secondary-color);
+    background-color: #542E90;
+    margin-top: 90px;
+    margin-right: 30px;
+
+}
+
+#pickup {
+    background-color: #FFF200;
+    color: var(--primary-color);
+}

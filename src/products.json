@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Manchester United Teamgeist Woven Jacket",
+    "rates": 20,
+    "price": 2749,
+    "priceAfterDisc": 2440,
+    "discount": 50,
+    "gender": "Men",
+    "stars": 3,
+    "from": "UK",
+    "to": "Egypt",
+    "img": [
+      "https://i.im.ge/2022/09/20/17eEGS.mun1.jpg",
+      "https://i.im.ge/2022/09/20/1DMyNq.mun2.jpg",
+      "https://i.im.ge/2022/09/20/1DTAi1.mun3.jpg",
+      "https://i.im.ge/2022/09/20/1DQYFK.mun4.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "LS DENIM REG SHIRT- Blue Shirt",
+    "rates": 77,
+    "price": 2399,
+    "priceAfterDisc": 2110,
+    "discount": 30,
+    "gender": "Men",
+    "stars": 4,
+    "from": "France",
+    "to": "Egypt",
+    "img": [
+      "https://i.im.ge/2022/09/20/1DohVc.shirt1.jpg",
+      "https://i.im.ge/2022/09/20/1Do0rL.shirt2.jpg",
+      "https://i.im.ge/2022/09/20/1Do0rL.shirt2.jpg",
+      "https://i.im.ge/2022/09/20/1Do9gx.shirt4.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Karlie Kloss Light Padded Jacket - Adidas",
+    "rates": 48,
+    "price": 2099,
+    "priceAfterDisc": 1720,
+    "discount": 70,
+    "gender": "Women",
+    "stars": 5,
+    "from": "Japan",
+    "to": "Egypt",
+    "img": [
+      "https://i.im.ge/2022/09/20/1Dlz7f.jacket1.jpg",
+      "https://i.im.ge/2022/09/20/1DlHCm.jacket2.jpg",
+      "https://i.im.ge/2022/09/20/1Dlpvr.jacket3.jpg",
+      "https://i.im.ge/2022/09/20/1DlJ2W.jacket4.jpg"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Adidas Adicolor Classics Sweatshirt - Purple",
+    "rates": 79,
+    "price": 1879,
+    "priceAfterDisc": 1680,
+    "discount": 20,
+    "gender": "Women",
+    "stars": 3,
+    "from": "Italy",
+    "to": "Egypt",
+    "img": [
+      "https://i.im.ge/2022/09/20/1DrOV6.swshirt1.jpg",
+      "https://i.im.ge/2022/09/20/1DrwI1.swshirt2.jpg",
+      "https://i.im.ge/2022/09/20/1DrNJm.swshirt3.jpg",
+      "https://i.im.ge/2022/09/20/1Drtdr.swshirt4.jpg"
+    ]
+  }
+]

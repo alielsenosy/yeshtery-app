@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Suspense, lazy } from "react";
+import "./App.scss";
+import CircularProgress from "@mui/material/CircularProgress";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Similar from "./Components/Body/Similar";
+import HeaderTop from "./Components/HeaderTop";
+import HeaderMid from "./Components/HeaderMid";
+import HeaderBottom from "./Components/HeaderBottom";
+import Footer from "./Components/Footer";
+import * as mdb from "mdb-ui-kit";
+const ProductBody = lazy(() => import("./Components/Body/ProductBody"));
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <HeaderTop />
+      <HeaderMid />
+      <HeaderBottom />
+      <Suspense
+        fallback={
+          <CircularProgress color="secondary" sx={{ margin: "auto" }} />
+        }
+      >
+        <Switch>
+          <Route exact path="/product/:id">
+            <ProductBody />
+          </Route>
+          <Route path="/">
+            <Similar />
+          </Route>
+        </Switch>
+      </Suspense>
+      <Footer />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
